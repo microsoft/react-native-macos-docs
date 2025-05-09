@@ -1,4 +1,7 @@
 {
   "name": "react-native-macos-docs",
+  "scripts": {
+    "lint:commit": "git log --format='%s' origin/trunk..HEAD | tail -1 | npx @rnx-kit/commitlint-lite@2.0.0"
+  },
   "packageManager": "yarn@4.9.1"
 }
