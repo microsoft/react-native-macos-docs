@@ -6,7 +6,6 @@ const organizationName = "microsoft";
 const projectName = "react-native-macos";
 const projectFriendlyName = "React Native macOS";
 const githubUrl = "https://github.com/" + organizationName + "/" + projectName;
-const mainReadmeUrl = githubUrl + "/#readme";
 const mainBranchUrl = githubUrl + "/tree/main";
 const docsiteUrl = mainBranchUrl + "/docsite";
 
@@ -59,7 +58,14 @@ const config: Config = {
           sidebarId: 'docsSidebar',
           position: 'left',
           label: 'Docs',
-        }
+        },
+        {
+          src: "img/github-logo.svg",
+          href: githubUrl,
+          className: "github-mark-24px",
+          position: "right",
+          "aria-label": "GitHub repository",
+        },
       ],
     },
     footer: {
