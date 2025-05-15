@@ -59,7 +59,14 @@ const config: Config = {
           sidebarId: 'docsSidebar',
           position: 'left',
           label: 'Docs',
-        }
+        },
+        {
+          src: "img/github-logo.svg",
+          href: mainReadmeUrl,
+          className: "github-mark-24px",
+          position: "right",
+          "aria-label": "GitHub repository",
+        },
       ],
     },
     footer: {
