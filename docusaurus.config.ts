@@ -111,7 +111,13 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      logo: {
+        src: "img/msoss-light.png",
+        srcDark: "img/msoss-dark.png",
+        alt: "Microsoft Open Source logo",
+        href: "https://opensource.microsoft.com",
+      },
+      copyright: `Copyright © ${new Date().getFullYear()} Microsoft`,
     },
     prism: {
       theme: prismThemes.github,
