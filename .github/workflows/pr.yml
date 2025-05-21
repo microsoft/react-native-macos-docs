@@ -24,7 +24,7 @@ jobs:
           node-version: '22'
       - name: Lint commit message
         run: |
-          yarn lint:commit
+          npm run lint:commit
   build-website:
     name: "Build the website"
     permissions: {}
