@@ -60,6 +60,11 @@ const config: Config = {
           label: 'Docs',
         },
         {
+          label: "Blog",
+          position: "right",
+          href: "https://devblogs.microsoft.com/react-native/",
+        },
+        {
           src: "img/github-logo.svg",
           href: githubUrl,
           className: "github-mark-24px",
