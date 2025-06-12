@@ -83,8 +83,8 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Microsoft`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.vsLight,
+      darkTheme: prismThemes.vsDark,
     },
   } satisfies Preset.ThemeConfig,
 };
