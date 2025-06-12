@@ -11,30 +11,24 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Truly Native',
     Svg: require('@site/static/img/react-logo.svg').default,
     description: (
-      <>
-        TODO
-      </>
+      <>Built on top of Appkit, Apple's macOS Platform SDK</>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Cross Platform',
     Svg: require('@site/static/img/react-logo.svg').default,
     description: (
-      <>
-        TODO
-      </>
+      <>Use your favorite React Native libraries</>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Supported by Microsoft',
     Svg: require('@site/static/img/react-logo.svg').default,
     description: (
-      <>
-        TODO
-      </>
+      <>Used at scale by some of the largest apps out there</>
     ),
   },
 ];
