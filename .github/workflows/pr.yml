@@ -29,7 +29,7 @@ jobs:
         env:
           PR_TITLE: ${{ github.event.pull_request.title }}
         run: |
-          npm run lint:commit
+          echo "$PR_TITLE" | npx @rnx-kit/commitlint-lite@2.0.0
   build-website:
     name: "Build the website"
     permissions: {}

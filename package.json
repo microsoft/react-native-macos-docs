@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "lint:commit": "echo \"$PR_TITLE\" | npx @rnx-kit/commitlint-lite@2.0.0",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
