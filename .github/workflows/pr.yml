@@ -24,5 +24,21 @@ jobs:
           node-version: '22'
       - name: Lint commit message
         run: |
-          yarn lint:commit
+          npm run lint:commit
+  build-website:
+    name: "Build the website"
+    permissions: {}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install package dependencies
+        run: |
+          yarn
+      - name: Build website
+        run: |
+          yarn build
 
