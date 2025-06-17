@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   lint-commit:
-    name: "lint PR title"
+    name: "Lint PR title"
     permissions: {}
     runs-on: ubuntu-latest
     steps:
