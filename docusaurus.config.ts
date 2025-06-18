@@ -23,6 +23,9 @@ const config: Config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
+  // Explicit trailing slash configuration for GitHub Pages
+  trailingSlash: false,
+
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],

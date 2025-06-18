@@ -26,6 +26,10 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
+The website is automatically deployed to [https://microsoft.github.io/react-native-macos/](https://microsoft.github.io/react-native-macos/) via GitHub Actions when changes are pushed to the `main` branch.
+
+For manual deployment, you can use the Docusaurus deploy command:
+
 Using SSH:
 
 ```
