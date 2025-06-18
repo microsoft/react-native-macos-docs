@@ -45,7 +45,9 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      # ${{ steps.deployment.outputs.page_url }} points to https://microsoft.github.io/react-native-macos-docs/
+      # so let's override it to our preferred URL.
+      url: https://microsoft.github.io/react-native-macos/
     runs-on: ubuntu-24.04
     needs: prepare-pages
     steps:
